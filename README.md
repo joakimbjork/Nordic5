@@ -21,7 +21,7 @@ Most of the implemented functions use the library file **Nordic32_Lib.slx**, win
 
 These files are used to desing different load flows and to tune power system stabilizers. Current version is documented in **Nordic5_doc.pdf**
 
-**Ensemble_Nordic5_5000MW, Ensemble_two_hydro_DVPP**
+## Ensemble_Nordic5_5000MW, Ensemble_two_hydro_DVPP
 
 Contains the simulation examples used in [[1]](#1).
 
@@ -31,7 +31,7 @@ Main Files:
 - **main_Ensemble_Nordic5_wind_hydro.m**
 - **main_ensemble_two_hydro_DVPP.m**
 
-**Wind_and_hydro_DVPP, Wind_Nordic5_5000MW, Wind_open_loop_step**
+## Wind_and_hydro_DVPP, Wind_Nordic5_5000MW, Wind_open_loop_step
 
 Contains the simulation examples used in [[2]](#2).
 
