@@ -1,7 +1,7 @@
 # Nordic5
 * Contact: Joakim Björk, joakbj@kth.se
 
-This repository presents a 5 machine representation of the Nordic synchronous grid, developed in Matlab Simulink Simscape Electrical. For full details of the model and its design choices, see the document **Nordic5_doc.pdf**.
+This repository presents a 5 machine model of the Nordic synchronous grid, developed in Matlab Simulink Simscape Electrical. For full details of the model and its design choices, see the document **Nordic5_doc.pdf**.
 
 # Dependencies
 1. Matlab (R2020a)
