@@ -33,7 +33,7 @@ Main Files:
 
 ## Wind_and_hydro_DVPP, Wind_Nordic5_5000MW, Wind_open_loop_step
 
-Contains the simulation examples used in [[2]](#2).
+Contains the simulation examples used in [[2]](#2). The implemented wind turbine model is a modified version of the NREL 5 MW baseline wind turbine model [[3]](#3).
 
 Main Files: 
 
@@ -47,3 +47,6 @@ J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant desi
 
 <a id="2">[2]</a> 
 J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021
+
+<a id="3">[3]</a> 
+J. Jonkman, S. Butterfield, W. Musial, and G. Scott, “Definition of a 5-MW reference wind turbine for offshore system development,” NREL,USA, Tech. Rep., 2009.
