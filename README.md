@@ -49,4 +49,4 @@ J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant desi
 J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021
 
 <a id="3">[3]</a> 
-J. Jonkman, S. Butterfield, W. Musial, and G. Scott, “Definition of a 5-MW reference wind turbine for offshore system development,” NREL,USA, Tech. Rep., 2009.
+J. Jonkman, S. Butterfield, W. Musial, and G. Scott, “Definition of a 5-MW reference wind turbine for offshore system development,” NREL, USA, Tech. Rep., 2009.
