@@ -16,7 +16,7 @@
 clear all
 
 %% Initialize model
-load_data_Nordic5_5000MW_110; 
+load_data_Nordic5_5000MW_240; 
 %load_data_Nordic5_5000MW_110;
 
 
