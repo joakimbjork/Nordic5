@@ -43,10 +43,11 @@ Main Files:
 
 ## References
 <a id="1">[1]</a> 
-J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, 2021
+J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, 2021, https://people.kth.se/~joakbj/Papers/DVPP2021.pdf
 
 <a id="2">[2]</a> 
-J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021
+J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021,
+https://people.kth.se/~joakbj/Papers/Wind2021.pdf
 
 <a id="3">[3]</a> 
 J. Jonkman, S. Butterfield, W. Musial, and G. Scott, “Definition of a 5-MW reference wind turbine for offshore system development,” NREL, USA, Tech. Rep., 2009.
