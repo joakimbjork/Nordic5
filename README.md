@@ -43,7 +43,7 @@ Main Files:
 
 ## References
 <a id="1">[1]</a> 
-J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, 2021, https://people.kth.se/~joakbj/Papers/DVPP2021.pdf
+J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, 2021, https://arxiv.org/abs/2107.03087
 
 <a id="2">[2]</a> 
 J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021,
