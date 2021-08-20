@@ -4,12 +4,9 @@
 This repository presents a 5 machine model of the Nordic synchronous grid, developed in Matlab Simulink Simscape Electrical. For full details of the model and its design choices, see the document **[Nordic5_doc](Nordic5_doc.pdf)**.
 
 # Dependencies
-1. Matlab (R2020a)
+1. Matlab (R2020b)
 2. Simulink 
 3. Simscape Electrical
-4. DSP System Toolbox (optional)
-
-To model local frequency dependent loads, **Nordic32_Lib.slx** loads the unwrap function from the DSP System Toolbox. Dependency on the DSP System Toolbox can be avoided by modifying the Load-block in **Nordic32_Lib.slx**.
 
 # How to use model
 
@@ -43,11 +40,12 @@ Main Files:
 
 ## References
 <a id="1">[1]</a> 
-J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, 2021, https://arxiv.org/abs/2107.03087
+J. Björk, K. H. Johansson, and F. Dörfler, “Dynamic virtual power plant design for fast frequency reserves: Coordinating hydro and wind,” unpublished, http://arxiv.org/abs/2107.03087
+
 
 <a id="2">[2]</a> 
-J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” unpublished, 2021,
-https://people.kth.se/~joakbj/Papers/Wind2021.pdf
+J. Björk, D. V. Pombo, and K. H. Johansson, “Variable-speed wind turbine control designed for coordinated fast frequency reserves,” IEEE Trans. Power Syst., to be published. https://arxiv.org/abs/2108.02427
+
 
 <a id="3">[3]</a> 
 J. Jonkman, S. Butterfield, W. Musial, and G. Scott, “Definition of a 5-MW reference wind turbine for offshore system development,” NREL, USA, Tech. Rep., 2009.
