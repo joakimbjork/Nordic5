@@ -14,11 +14,11 @@
 % along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 clear all
+path = '';
 
 %% Initialize model
 load_data_Nordic5_5000MW_240; 
 %load_data_Nordic5_5000MW_110;
-
 
 model = 'Nordic5_5000MW';
 
@@ -123,7 +123,6 @@ if plotFigure
     i=1; w = w_all(:,i); e = e_all(i);
     hfig = plot_compass(w,e);   
     if saveFigure
-        path = 'C:\Users\joakbj\Dropbox\KTH\Forskning\gitDocumentation\Nordic5\Figures\Compass_240_with_pss\';
         saveas(hfig,fullfile(path, 'mode_1'),'epsc');
     end
     i=2; w = w_all(:,i); e = e_all(i);
@@ -172,7 +171,6 @@ if plotFigure
     i=1; res = res_all(:,i); e = e_all(i);
     hfig = plot_compass(res,e); 
     if saveFigure
-%       path = 'C:\Users\joakbj\Dropbox\KTH\Forskning\gitDocumentation\Nordic5';
         saveas(hfig,fullfile(path, 'res_1'),'epsc');
     end
     i=2; res = res_all(:,i); e = e_all(i);
