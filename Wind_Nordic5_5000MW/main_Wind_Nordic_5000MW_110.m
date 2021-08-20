@@ -17,7 +17,7 @@
 clear all
 path = '';
 %% Run Simulation
-simulate_model = true;
+simulate_model = false;
 
 s = tf('s');
 fdcmax = 0.4; % Max allowed steady state freq deviation
@@ -34,7 +34,7 @@ if simulate_model
 %     runs = [];
     load_data_Wind_Nordic5_5000MW_110
         
-    for i_run = 1:2
+    for i_run = 4
         if i_run == 1
             model = 'Nordic5_5000MW'; 
             fcr_mode = 0;    
@@ -96,7 +96,7 @@ end
 
 
 %% Load From File
-load_model = false;
+load_model = true;
 if load_model
 %     load('run_01_07.mat')
     load('saved_example.mat')

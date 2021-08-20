@@ -18,7 +18,7 @@ clear all
 path = '';
 
 %% Run Simulation
-simulate_model = false;
+simulate_model = true;
 run_load_flow = false;
 
 s = tf('s');
@@ -32,7 +32,7 @@ R = R*fn;
 % K_ideal = R/(s*7.2+1); % First order FCR
 K_ideal = R*(1+6.5*s)/((1+2*s)*(1+17*s)); % Second order FCR (avoids second freqeuncy dip)
 runs = [];
-for i_run = 1:2
+for i_run = 1
     if simulate_model
         if i_run == 1
                 model = 'Ensemble_Nordic5_5000MW'; 
